@@ -51,21 +51,14 @@ Implementing various clustering Models and validating
 
 
 ## Conclusions:
-Descriptive Analysis:
-The data exploration of Online customer segmentation dataset shows :
 
-Missing and duplicate values were found.
 
-Most of the purchases are from the United Kingdom.
+In conclusion, this online retail segmentation project focused on developing customer segments for a UK-based online store specializing in unique all occasion gifts. By employing a combination of recency, frequency, and monetary analysis (RFM), we successfully segmented customers into clusters, achieving a high average silhouette score of 0.39 for two clusters.
 
-Most of the customers have purchased items on Thursday, Wednesday, Tuesday.
+Through the utilization of various clustering algorithms, including K-Means, Hierarchical Clustering, and DBSCAN, we explored different perspectives and obtained valuable insights. By considering the Elbow Curve and Silhouette Score criteria, we determined that the optimal number of clusters for our dataset is four.
 
-Most of the customers have purchased items in November, October, December, and the least number of purchases in April, January, February.
+The project highlighted the importance of starting with a simple binning and quantile-based segmentation model, as it provided a preliminary understanding of the data and guided subsequent analysis. The more complex models allowed for a deeper exploration and exploitation of the data, revealing meaningful clusters based on behavioral attributes such as valuability, loyalty, and profitability.
 
-Most of the customers purchase in the afternoon time.
+The segmentation results and major segments derived from this project are dependent on the specific goals of the business and the desired level of granularity. By considering different criteria and our understanding of the business, we clustered the major segments accordingly.
 
-Using a recency, frequency and monetary(RFM) analysis, the customers have been segmented into various clusters.
-
-By applying different clustering algorithm to our dataset, we get the optimal number of cluster is equal to 3.
-
-The business can focus on these different clusters and provide customer with services of each sector in a different way, which would not only benefit the customers but also the business at large.
+Overall, this project has provided valuable insights into customer segmentation, empowering the online retail store to better understand and cater to the unique needs and preferences of its customers, ultimately enhancing customer satisfaction and driving business growth.
